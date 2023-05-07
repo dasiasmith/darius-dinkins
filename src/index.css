@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: alloyink;
+    src: url(./assets/AlloyInk-lgdWw.otf);
+}
+
+.nav-darius {
+  font-family: alloyink;
+  font-size: 30px;
+}
+
+.nav-sec {
+  font-size: 20px;
+  color: white;
+  font-family: alloyink;
+}
+
+.darius-about {
+  height: 80vh;
+}  
+
+.about-words {
+  padding-top: 20%;
+}
