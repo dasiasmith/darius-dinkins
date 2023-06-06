@@ -1,8 +1,9 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
 
-export default function Shows() {
+export default function Shows({ onShowPageClick }) {
+  const handleClick = () => {
+    onShowPageClick();
+  };
     return (
       <section id="shows">
       <div
@@ -10,9 +11,7 @@ export default function Shows() {
         style={{ backgroundImage: "url(./basquiat.jpg)" }}
       >
         <div className=" about-words md:text-left items-center text-center">
-          <h1 className="show-text text-white">
-            SHOWS:
-          </h1>
+          <button className="show-text text-white" onClick={handleClick}>SHOWS:</button>
         </div>
       </div>
     </section>

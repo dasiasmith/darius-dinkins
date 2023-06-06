@@ -1,21 +1,24 @@
 export const shows = [
   {
-    date: "React Reserve",
-    location: "MERN Stack",
+    day: "3",
+    month: "JUNE",
+    location: "Spamgalangs",
     time:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "7:00",
   },
   {
-    date: "React Reserve",
-    location: "MERN Stack",
+    day: "11",
+    month: "JUNE",
+    location: "Finns Manor",
     time:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "7:00",
   },
   {
-    date: "React Reserve",
-    location: "MERN Stack",
+    day: "15",
+    month: "JUNE",
+    location: "Town Hall Collaborative",
     time:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "7:00",
   },
 ];
 
@@ -34,13 +37,4 @@ export const testimonials = [
     name: "Ruben Alvarez",
     company: "Dooble.io",
   },
-];
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
 ];
