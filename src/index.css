@@ -79,3 +79,184 @@
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
+
+
+.show-page {
+  background-color: #5e615e;
+}
+
+.show {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 24px 0px;
+}
+
+
+.calendar-container {
+padding:96px 0px;
+overflow:hidden;
+background:#5e615e;
+}
+
+.calendar-container video.background-video {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height:100%;
+  transform: translate(-50%,-50%);
+}
+
+.calendar-container .row {
+z-index:4;
+}
+
+body.page-template.page-template-template-calendar .calendar-container {
+  min-height: 85vh;
+}
+
+.shows {
+padding-top:6px;
+}
+
+.show {
+  margin: 48px 24px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.show a {
+  color: #fff;
+}
+
+.show .date {
+  margin-right: 24px;
+}
+
+.show .date p {
+  display: block;
+  font-family: var(--Futura);
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.show .date p span {
+  display: block;
+  text-align: center;
+  font-size: 56px;
+}
+
+.location {
+  flex: 0 0 60%;
+}
+
+.show .location h3 {
+margin:0px;
+  font-size: 54px;
+  line-height: 58px;
+color:black;
+}
+
+.show .location h3 a {
+display:block;
+color:var(--yellow);
+}
+
+.black-box {
+  display: inline-block;
+  background: #000;
+  padding: 1px 8px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: var(--SourceCode);
+}
+
+a.black-box  {
+color: var(--babyblue);
+}
+
+.black-box.yellow-text {
+  color: var(--yellow);
+}
+
+a.black-box.yellow-text {
+color: var(--yellow);
+}
+
+.black-box.big-text {
+font-size:28px;
+line-height:28px;
+padding:2px 24px;
+}
+
+.more-link .black-box {
+font-size:28px;
+line-height:28px;
+padding:2px 24px;
+}
+
+a.black-box:hover, a.black-box.yellow-text:hover {
+color:#fff;
+}
+
+a.black-box.yellow-text.tiny-text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+a.black-box.get-tickets {
+  font-family: var(--Futura);
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a.black-box.get-tickets span {
+  font-family: var(--FuturaCondensed);
+  margin-left: 6px;
+}
+
+a.black-box.get-tickets:hover {
+  background: var(--babyblue);
+}
+
+a.map-link {
+text-align: center;
+  background: #000;
+  display: flex;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+  align-self: stretch;
+  padding: 12px 18px;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--FuturaCondensed);
+  font-size: 42px;
+  line-height: 36px;
+  margin: 0 12px;
+  padding: 4px 18px;
+}
+
+a.map-link:hover {
+background:var(--babyblue); 
+}
+
+.pagination a {
+display: inline-block;
+  background: #000;
+  padding: 1px 8px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: var(--SourceCode);
+color:var(--yellow);
+}

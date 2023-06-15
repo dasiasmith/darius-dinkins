@@ -3,16 +3,19 @@ import { shows } from "../../data"; // Assuming the data.js file is in the same 
 
 export default function ShowPage() {
   return (
-    <div>
+    <div className="show-page">
       <h1>SHOWS</h1>
       {shows.map((show) => (
         <div key={show.day} className="show-item">
-          <div className="show-date">
-            <span className="show-day">{show.day}</span>
-            <span className="show-month">{show.month}</span>
-          </div>
-          <div className="show-location">{show.location}</div>
-          <div className="show-time">{show.time}</div>
+          <div className="show">
+            <div className="date">
+                <p>{show.month}<span>{show.day}</span></p>
+            </div>
+            <div className="location">
+                <h3>{show.location}</h3>
+                <p className="black-box yellow-text">{show.time}</p>
+            </div>
+            </div>
         </div>
       ))}
     </div>
